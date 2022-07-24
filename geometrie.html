@@ -15,16 +15,20 @@
                 scale="2">
             </a-entity>
         </a-marker>
+        <a-marker type="barcode" value="0">
+            <a-cylinder position='0 0.5 0' 
+                   color="purple" radius="0.5">
+            </a-cylinder>
+        </a-marker>
         <a-marker type="barcode" value="1">
-            <a-entity
-                gltf-model="#triceratops-asset"
-                scale="0.01 0.01 0.01">
-            </a-entity>
+            <a-sphere position='0 0.5 0' 
+                   color="grey" radius="0.5">
+            </a-sphere>
         </a-marker>
         <a-marker type="barcode" value="2">
-            <a-box position='0 0.5 0' 
-                   color="yellow">
-            </a-box>
+            <a-torus position='0 0.5 0' 
+                   color="yellow" radius="0.5">
+            </a-torus>
         </a-marker>
         <a-marker type="barcode" value="3">
             <a-box position='0 0.5 0' 
@@ -32,8 +36,23 @@
             </a-box>
         </a-marker>
         <a-marker type="barcode" value="4">
+            <a-tetrahedron position='0 0.5 0' 
+                   color="blue" radius="0.5">
+            </a-tetrahedron>
+        </a-marker>
+        <a-marker type="barcode" value="5">
+            <a-dodecahedron position='0 0.5 0' 
+                   color="pink" radius="0.5">
+            </a-dodecahedron>
+        </a-marker>
+        <a-marker type="barcode" value="6">
+            <a-box position='0 0.5 0'
+                   color="black">
+            </a-box>
+        </a-marker>
+        <a-marker type="barcode" value="7">
             <a-box position='0 0.5 0' 
-                   color="blue">
+                   color="green">
             </a-box>
         </a-marker>
         <a-entity camera></a-entity>
