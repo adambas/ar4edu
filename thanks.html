@@ -7,12 +7,11 @@
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
-            <a-asset-item id="triceratops-asset" src="https://cdn.aframe.io/examples/ar/models/triceratops/scene.gltf"></a-asset-item>
+            <a-asset-item id="mensch-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
         </a-assets>
         <a-marker preset="hiro">
             <a-entity
-                gltf-model="#animated-asset"
+                gltf-model="#mensch-asset"
                 scale="2">
             </a-entity>
         </a-marker>
