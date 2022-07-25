@@ -166,6 +166,11 @@ input {
 }
 
 /* Subheading */
+h1 {
+  color: #2800FF;
+}
+
+/* Subheading */
 h2 {
   color: #2800FF;
 }
